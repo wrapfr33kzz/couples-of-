@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 190px;
+  height: 340px;
+  background: rgb(225, 221, 221);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 100px 100px 50% 0px;
+  /* margin: x; */
+}
+
+#right {
+  rotate: calc(40deg);
+  position: relative;
+  /* background-color: rgb(255, 10, 10); */
+  background-image: url("https://i.pinimg.com/originals/1f/43/2d/1f432ddc152dfb8a4a16f8ac6e42b7b8.gif");
+
+  background-size: contain;
+  background-position: calc();
+  background-repeat: no-repeat;
+  left: 150px;
+  border-radius: 100px 100px 50% 50%;
+}
+#left {
+  rotate: calc(-40deg);
+  position: relative;
+  background-image: url("https://media4.giphy.com/media/7xWhgoOYzn1Ly/giphy.webp?cid=ecf05e47389xm2tt7achbc3t6dxmymzb83rmp8qnp8q36fp4&rid=giphy.webp&ct=g");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(-40deg);
+  transform: scaleX(-1);
+  background-position: -100px;
+  right: 140px;
+  border-radius: 100px 100px 0px 50%;
+}
+.main {
+  display: flex;
+  border-radius: 50px;
+
+  background: #e0e0e0;
+  box-shadow: 5px 5px 13px #9b9b9b, -5px -5px 13px #ffffff;
+}
+body {
+  background-color: rgba(103, 95, 95, 0.159);
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  width: 80%;
+  /* margin: 0 5\0%; */
+  height: 70px;
+  position: absolute;
+  top: 100px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 35px 35px 68px 0px rgba(145, 193, 255, 0.378),
+    inset -10px -10px 16px 0px rgba(145, 192, 255, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   color: red;
+   font-weight: 700px;
+   /* font-size: 1/``/px;  */
+}
+.head h2{
+    text-align: center;
+}
