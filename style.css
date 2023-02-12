@@ -19,7 +19,8 @@
 
 
 #right {
-  rotate: calc(40deg);
+  transform: rotate(40deg);
+  /* rotate: calc(40deg); */
   position: relative;
   /* background-color: rgb(255, 10, 10); */
   background-image: url("https://i.pinimg.com/originals/1f/43/2d/1f432ddc152dfb8a4a16f8ac6e42b7b8.gif");
@@ -31,7 +32,8 @@
   border-radius: 100px 100px 50% 50%;
 }
 #left {
-  rotate: calc(-40deg);
+  transform: rotate(-40deg);
+  /* rotate: calc(-40deg); */
   position: relative;
   background-image: url("https://media4.giphy.com/media/7xWhgoOYzn1Ly/giphy.webp?cid=ecf05e47389xm2tt7achbc3t6dxmymzb83rmp8qnp8q36fp4&rid=giphy.webp&ct=g");
   background-repeat: no-repeat;
@@ -88,7 +90,8 @@ body {
 
 
   #right {
-    rotate: calc(40deg);
+    transform: rotate(40deg);
+    /* rotate: calc(40deg); */
     position: relative;
     background-size: contain;
     background-position: calc();
@@ -97,7 +100,8 @@ body {
     border-radius: 100px 100px 50% 50%;
   }
   #left {
-    rotate: calc(-40deg);
+    transform: rotate(-40deg);
+    /* rotate: calc(-40deg); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
