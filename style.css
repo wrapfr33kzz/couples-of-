@@ -32,10 +32,9 @@
   border-radius: 100px 100px 50% 50%;
 }
 #left {
-  transform: rotate(-40deg);
-  /* rotate: calc(-40deg); */
+  rotate: calc(-40deg);
   position: relative;
-  background-image: url("https://media4.giphy.com/media/7xWhgoOYzn1Ly/giphy.webp?cid=ecf05e47389xm2tt7achbc3t6dxmymzb83rmp8qnp8q36fp4&rid=giphy.webp&ct=g");
+  background-image: url("ezgif.com-gif-maker.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(-40deg);
@@ -43,6 +42,10 @@
   background-position: -100px;
   right: 140px;
   border-radius: 100px 100px 0px 50%;
+}
+.cin{
+  transform: rotate(-20deg);
+
 }
 .main {
   display: flex;
@@ -90,7 +93,6 @@ body {
 
 
   #right {
-    transform: rotate(40deg);
     /* rotate: calc(40deg); */
     position: relative;
     background-size: contain;
@@ -100,8 +102,6 @@ body {
     border-radius: 100px 100px 50% 50%;
   }
   #left {
-    transform: rotate(-40deg);
-    /* rotate: calc(-40deg); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +132,6 @@ body {
   }
 
   #right {
-    transform: rotate(5deg);
     position: relative;
     background-size: contain;
     background-position: calc();
@@ -141,11 +140,9 @@ body {
     border-radius: 100px 100px 50% 50%;
   }
   #left {
-    transform: rotate(calc(-40deg));
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: calc(-40deg);
     transform: scaleX(-1);
     background-position: -100px;
     right: 90px;
