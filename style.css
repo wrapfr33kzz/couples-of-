@@ -128,7 +128,7 @@ body {
   }
 
   #right {
-    rotate: calc(40deg);
+    transform: rotate(5deg);
     position: relative;
     background-size: contain;
     background-position: calc();
@@ -137,7 +137,7 @@ body {
     border-radius: 100px 100px 50% 50%;
   }
   #left {
-    rotate: calc(-40deg);
+    transform: rotate(calc(-40deg));
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
